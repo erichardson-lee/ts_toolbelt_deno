@@ -1,4 +1,4 @@
-import {Test, O, A, T, U, M, F, S} from '../sources.ts'
+import {Test, O, A, T, U, M, F, S} from '../sources/index.ts'
 import {Key} from '../sources/Any/Key.ts'
 import {OptionalDeep} from '../sources/Object/Optional.ts'
 
