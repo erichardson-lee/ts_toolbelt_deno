@@ -1,7 +1,7 @@
 /** @ignore *//** */
 
-export {At} from './At'
-export {Join} from './Join'
-export {Length} from './Length'
-export {Replace} from './Replace'
-export {Split} from './Split'
+export {At} from './At.ts'
+export {Join} from './Join.ts'
+export {Length} from './Length.ts'
+export {Replace} from './Replace.ts'
+export {Split} from './Split.ts'
