@@ -1,6 +1,6 @@
-import {Overwrite as OOverwrite} from '../Object/Overwrite'
-import {Cast} from '../Any/Cast'
-import {List} from './List'
+import {Overwrite as OOverwrite} from '../Object/Overwrite.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from './List.ts'
 
 /**
  * Update the entries of `L` with the ones of `L1`

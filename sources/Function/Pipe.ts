@@ -1,9 +1,9 @@
-import {IntersectOf} from '../Union/IntersectOf'
-import {PipeListAsync} from './Pipe/List/Async'
-import {PipeListSync} from './Pipe/List/Sync'
-import {PipeMultiAsync} from './Pipe/Multi/Async'
-import {PipeMultiSync} from './Pipe/Multi/Sync'
-import {Input, Mode} from './_Internal'
+import {IntersectOf} from '../Union/IntersectOf.ts'
+import {PipeListAsync} from './Pipe/List/Async.ts'
+import {PipeListSync} from './Pipe/List/Sync.ts'
+import {PipeMultiAsync} from './Pipe/Multi/Async.ts'
+import {PipeMultiSync} from './Pipe/Multi/Sync.ts'
+import {Input, Mode} from './_Internal.ts'
 
 /**
  * Pipe [[Function]]s together
@@ -12,7 +12,7 @@ import {Input, Mode} from './_Internal'
  * @returns [[Function]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * /// If you are looking for creating types for `pipe`:
  * declare const pipe: F.Pipe

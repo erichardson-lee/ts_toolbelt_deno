@@ -1,6 +1,6 @@
-import {Key} from '../Any/Key'
-import {List} from './List'
-import {At} from '../Any/At'
+import {Key} from '../Any/Key.ts'
+import {List} from './List.ts'
+import {At} from '../Any/At.ts'
 
 /**
  * Make the fields of `L` union the ones of `L1`

@@ -1,5 +1,5 @@
-import {Length} from './Length'
-import {List} from './List'
+import {Length} from './Length.ts'
+import {List} from './List.ts'
 
 /**
  * Get the first entry of `L`

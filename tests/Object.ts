@@ -1,6 +1,6 @@
-import {Test, O, A, T, U, M, F, S} from '../sources'
-import {Key} from '../sources/Any/Key'
-import {OptionalDeep} from '../sources/Object/Optional'
+import {Test, O, A, T, U, M, F, S} from '../sources.ts'
+import {Key} from '../sources/Any/Key.ts'
+import {OptionalDeep} from '../sources/Object/Optional.ts'
 
 const {checks, check} = Test
 

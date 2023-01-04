@@ -1,4 +1,4 @@
-import {List} from './List'
+import {List} from './List.ts'
 
 /**
  * Remove the first item out of a [[List]]

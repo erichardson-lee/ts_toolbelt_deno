@@ -1,8 +1,8 @@
-import {_Pick as _OPick} from '../Object/Pick'
-import {_ListOf} from '../Object/ListOf'
-import {Key} from './_Internal'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {_Pick as _OPick} from '../Object/Pick.ts'
+import {_ListOf} from '../Object/ListOf.ts'
+import {Key} from './_Internal.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * @hidden

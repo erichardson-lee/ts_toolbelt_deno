@@ -1,6 +1,6 @@
-import {Function} from './Function'
-import {Parameters} from './Parameters'
-import {Length as LLength} from '../List/Length'
+import {Function} from './Function.ts'
+import {Parameters} from './Parameters.ts'
+import {Length as LLength} from '../List/Length.ts'
 
 /**
  * Extract arguments' length from a [[Function]]
@@ -8,7 +8,7 @@ import {Length as LLength} from '../List/Length'
  * @returns [[String]] or `number`
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * const fn = (a1: any, a2: any) => {}
  *

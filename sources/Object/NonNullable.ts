@@ -1,9 +1,9 @@
-import {NonNullable as UNonNullable} from '../Union/NonNullable'
-import {Depth} from './_Internal'
-import {_Pick} from './Pick'
-import {Key} from '../Any/Key'
-import {PatchFlat} from './Patch'
-import {BuiltIn} from '../Misc/BuiltIn'
+import {NonNullable as UNonNullable} from '../Union/NonNullable.ts'
+import {Depth} from './_Internal.ts'
+import {_Pick} from './Pick.ts'
+import {Key} from '../Any/Key.ts'
+import {PatchFlat} from './Patch.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
 
 /**
  * @hidden

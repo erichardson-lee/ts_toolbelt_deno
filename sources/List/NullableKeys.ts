@@ -1,6 +1,6 @@
-import {NullableKeys as ONullableKeys} from '../Object/NullableKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {NullableKeys as ONullableKeys} from '../Object/NullableKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` that are nullable

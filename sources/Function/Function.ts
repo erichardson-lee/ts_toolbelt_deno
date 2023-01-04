@@ -1,4 +1,4 @@
-import {List} from '../List/List'
+import {List} from '../List/List.ts'
 
 /**
  * Alias to create a [[Function]]
@@ -7,7 +7,7 @@ import {List} from '../List/List'
  * @returns [[Function]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * type test0 = F.Function<[string, number], boolean>
  * /// (args_0: string, args_1: number) => boolean

@@ -1,4 +1,4 @@
-import {IterationMap} from './Iteration'
+import {IterationMap} from './Iteration.ts'
 
 /**
  * Transform a number into an [[Iteration]]
@@ -7,7 +7,7 @@ import {IterationMap} from './Iteration'
  * @returns [[Iteration]]
  * @example
  * ```ts
- * import {I} from 'ts-toolbelt'
+ * import {I} from 'ts-toolbelt.ts'
  *
  * type i = I.IterationOf<0> // ["-1", "1", "0", 0, "0"]
  *

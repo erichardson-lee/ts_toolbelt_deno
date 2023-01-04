@@ -1,8 +1,8 @@
-import {Equals} from '../Any/Equals'
-import {_Greater} from './Greater'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {Or} from '../Boolean/Or'
+import {Equals} from '../Any/Equals.ts'
+import {_Greater} from './Greater.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {Or} from '../Boolean/Or.ts'
 
 /**
  * @hidden
@@ -17,7 +17,7 @@ export type _GreaterEq<N1 extends Iteration, N2 extends Iteration> =
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.GreaterEq<'7', '5'> // True
  * type test1 = N.GreaterEq<'5', '5'> // True

@@ -1,5 +1,5 @@
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
 
 /**
  * @hidden
@@ -16,7 +16,7 @@ export type _IsNegative<N extends Iteration> = {
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.IsNegative<'0'>  // False
  * type test1 = N.IsNegative<'-7'> // True

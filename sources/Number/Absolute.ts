@@ -1,7 +1,7 @@
-import {_Negate} from './Negate'
-import {_IsNegative} from './IsNegative'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
+import {_Negate} from './Negate.ts'
+import {_IsNegative} from './IsNegative.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
 
 /**
  * @hidden
@@ -17,7 +17,7 @@ export type _Absolute<N extends Iteration> = {
  * @returns `string | number | boolean`
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.Absolute<'-20'>      // '20'
  *

@@ -1,5 +1,5 @@
-import {Try} from '../Any/Try'
-import {Narrowable} from './_Internal'
+import {Try} from '../Any/Try.ts'
+import {Narrowable} from './_Internal.ts'
 
 /**
  * @hidden
@@ -17,7 +17,7 @@ type NarrowRaw<A> =
  * @returns `A`
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * declare function foo<A extends any[]>(x: F.Narrow<A>): A;
  * declare function bar<A extends object>(x: F.Narrow<A>): A;

@@ -4,7 +4,7 @@
  * @param A
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type test0 = A.Promise<Promise<number>> // Promise<number>
  * type test1 = Promise<Promise<number>> // Promise<Promise<number>>

@@ -1,4 +1,4 @@
-import {Narrowable} from './_Internal'
+import {Narrowable} from './_Internal.ts'
 
 /**
  * Force `A` to comply with `W`. `A` must be a shape of `W`. In other words, `A`

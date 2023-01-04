@@ -1,4 +1,4 @@
-import {Iteration} from './Iteration'
+import {Iteration} from './Iteration.ts'
 
 /**
  * Get the position of `I` (**string**)
@@ -6,7 +6,7 @@ import {Iteration} from './Iteration'
  * @returns [[String]]
  * @example
  * ```ts
- * import {I} from 'ts-toolbelt'
+ * import {I} from 'ts-toolbelt.ts'
  *
  * type i = I.IterationOf<'20'>
  *

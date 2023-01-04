@@ -1,4 +1,4 @@
-import {Value} from './Value'
+import {Value} from './Value.ts'
 
 /**
  * An object of JSON [[Value]]s

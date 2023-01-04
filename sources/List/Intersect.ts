@@ -1,8 +1,8 @@
-import {Intersect as OIntersect} from '../Object/Intersect'
-import {Match} from '../Any/_Internal'
-import {ListOf} from '../Object/ListOf'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Intersect as OIntersect} from '../Object/Intersect.ts'
+import {Match} from '../Any/_Internal.ts'
+import {ListOf} from '../Object/ListOf.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the intersecting entries of `L` & `L1`

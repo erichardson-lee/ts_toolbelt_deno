@@ -1,6 +1,6 @@
-import {UndefinableKeys as OUndefinableKeys} from '../Object/UndefinableKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {UndefinableKeys as OUndefinableKeys} from '../Object/UndefinableKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` that are `undefined`

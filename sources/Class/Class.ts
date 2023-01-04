@@ -1,4 +1,4 @@
-import {List} from '../List/List'
+import {List} from '../List/List.ts'
 
 /**
  * Alias to create/describe a `class`
@@ -7,7 +7,7 @@ import {List} from '../List/List'
  * @returns `class`
  * @example
  * ```ts
- * import {C} from 'ts-toolbelt'
+ * import {C} from 'ts-toolbelt.ts'
  *
  * type test0 = C.Class<[string, number], {a: string, b: number}>
  *

@@ -1,5 +1,5 @@
-import {Key} from './Key'
-import {List} from '../List/List'
+import {Key} from './Key.ts'
+import {List} from '../List/List.ts'
 
 /**
  * Get in `O` the type of a field of key `K`
@@ -8,7 +8,7 @@ import {List} from '../List/List'
  * @returns [[Any]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type User = {
  *  info: {

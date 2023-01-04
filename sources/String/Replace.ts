@@ -1,5 +1,5 @@
-import {Cast} from '../Any/Cast'
-import {Literal} from './_Internal'
+import {Cast} from '../Any/Cast.ts'
+import {Literal} from './_Internal.ts'
 
 /**
  * @hidden

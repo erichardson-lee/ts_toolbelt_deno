@@ -1,5 +1,5 @@
-import {Equals} from '../Any/_api'
-import type {Select} from './Select'
+import {Equals} from '../Any/_api.ts'
+import type {Select} from './Select.ts'
 
 /**
  * Get the overlapping members of `U1` and `U2`

@@ -1,4 +1,4 @@
-import {Key} from './Key'
+import {Key} from './Key.ts'
 
 declare const id: unique symbol
 
@@ -9,7 +9,7 @@ declare const id: unique symbol
  * @returns A new type `Type<A, Id>`
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type EUR = A.Type<number, 'eur'>
  * type USD = A.Type<number, 'usd'>

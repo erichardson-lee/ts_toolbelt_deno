@@ -1,13 +1,13 @@
-import {Prepend} from './Prepend'
-import {Pos} from '../Iteration/Pos'
-import {Next} from '../Iteration/Next'
-import {Length} from './Length'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {Cast} from '../Any/Cast'
-import {List} from './List'
-import {Naked} from './_Internal'
-import {Extends} from '../Any/Extends'
+import {Prepend} from './Prepend.ts'
+import {Pos} from '../Iteration/Pos.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Length} from './Length.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from './List.ts'
+import {Naked} from './_Internal.ts'
+import {Extends} from '../Any/Extends.ts'
 
 /**
  * @hidden

@@ -1,6 +1,6 @@
 /** @ignore *//** */
 
-import * as P from './P/_api'
+import * as P from './P/_api.ts'
 
 export {P}
 export {Assign} from './Assign'

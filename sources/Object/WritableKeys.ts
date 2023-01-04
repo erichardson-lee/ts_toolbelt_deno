@@ -1,4 +1,4 @@
-import {Equals} from '../Any/Equals'
+import {Equals} from '../Any/Equals.ts'
 
 // Credit https://stackoverflow.com/a/52473108/3570903
 

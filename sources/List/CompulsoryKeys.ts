@@ -1,6 +1,6 @@
-import {CompulsoryKeys as OCompulsoryKeys} from '../Object/CompulsoryKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {CompulsoryKeys as OCompulsoryKeys} from '../Object/CompulsoryKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` that are [[Compulsory]]
@@ -10,7 +10,7 @@ import {List} from './List'
  * @returns [[Key]]
  * @example
  * ```ts
- * import {L} from 'ts-toolbelt'
+ * import {L} from 'ts-toolbelt.ts'
  *
  * type test0 = L.CompulsoryKeys<[1, 2, 3]> // {0: 1, 1: 2, 2: 3}
  * ```

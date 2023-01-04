@@ -1,6 +1,6 @@
-import {RequiredKeys as ORequiredKeys} from '../Object/RequiredKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {RequiredKeys as ORequiredKeys} from '../Object/RequiredKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` that are readonly

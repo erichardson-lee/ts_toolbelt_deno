@@ -1,6 +1,6 @@
-import {Path as OPath} from '../Object/Path'
-import {Key} from '../Any/Key'
-import {List} from './List'
+import {Path as OPath} from '../Object/Path.ts'
+import {Key} from '../Any/Key.ts'
+import {List} from './List.ts'
 
 /**
  * Get in `L` the type of nested properties

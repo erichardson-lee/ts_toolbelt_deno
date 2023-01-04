@@ -1,8 +1,8 @@
-import {Pick} from './Pick'
-import {Depth} from './_Internal'
-import {Key} from '../Any/Key'
-import {PatchFlat} from './Patch'
-import {Equals} from '../Any/Equals'
+import {Pick} from './Pick.ts'
+import {Depth} from './_Internal.ts'
+import {Key} from '../Any/Key.ts'
+import {PatchFlat} from './Patch.ts'
+import {Equals} from '../Any/Equals.ts'
 
 /**
  * @hidden

@@ -1,6 +1,6 @@
-import {Key} from '../Any/Key'
-import {x} from '../Any/x'
-import {Replace} from '../Union/Replace'
+import {Key} from '../Any/Key.ts'
+import {x} from '../Any/x.ts'
+import {Replace} from '../Union/Replace.ts'
 
 /**
  * Update in `O` the fields of key `K` with `A`.
@@ -11,7 +11,7 @@ import {Replace} from '../Union/Replace'
  * @returns [[Object]]
  * @example
  * ```ts
- * import {A, O} from 'ts-toolbelt'
+ * import {A, O} from 'ts-toolbelt.ts'
  *
  * type User = {
  *  info: {

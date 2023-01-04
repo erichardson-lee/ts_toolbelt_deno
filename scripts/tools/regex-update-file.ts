@@ -1,7 +1,7 @@
 // @ts-ignore
-import * as fs from 'fs'
+import * as fs from 'fs.ts'
 // @ts-ignore
-import * as rl from 'readline'
+import * as rl from 'readline.ts'
 
 // regex-update-file
 // regex-find-file

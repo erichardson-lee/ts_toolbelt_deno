@@ -1,6 +1,6 @@
-import {_Pick} from './Pick'
-import {Exclude} from '../Union/Exclude'
-import {Key} from '../Any/Key'
+import {_Pick} from './Pick.ts'
+import {Exclude} from '../Union/Exclude.ts'
+import {Key} from '../Any/Key.ts'
 
 /**
  * @hidden

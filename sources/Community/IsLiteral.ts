@@ -1,6 +1,6 @@
-import {And} from '../Boolean/And'
-import {Or} from '../Boolean/Or'
-import {Extends} from '../Any/Extends'
+import {And} from '../Boolean/And.ts'
+import {Or} from '../Boolean/Or.ts'
+import {Extends} from '../Any/Extends.ts'
 
 /**
  * @hidden
@@ -33,7 +33,7 @@ export type Kind = string | number
  * @param kind (?=`'string' | 'number'`) to restrict
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type test0 = A.IsLiteral<1 | 2> // 1
  * type test1 = A.IsLiteral<1 | 2, string> // 0

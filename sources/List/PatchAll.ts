@@ -1,8 +1,8 @@
-import {PatchAll as OPatchAll} from '../Object/PatchAll'
-import {List} from '../List/List'
-import {Depth} from '../Object/_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Cast} from '../Any/Cast'
+import {PatchAll as OPatchAll} from '../Object/PatchAll.ts'
+import {List} from '../List/List.ts'
+import {Depth} from '../Object/_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * [[Patch]] a list of [[List]]s into `L`. Patches from left to right, first

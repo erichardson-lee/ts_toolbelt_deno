@@ -1,10 +1,10 @@
-import {Key} from '../../Any/Key'
-import {Readonly as OReadonly} from '../Readonly'
-import {List} from '../../List/List'
-import {BuiltIn} from '../../Misc/BuiltIn'
-import {_ListOf} from '../ListOf'
-import {Tail} from '../../List/Tail'
-import {Depth} from '../_Internal'
+import {Key} from '../../Any/Key.ts'
+import {Readonly as OReadonly} from '../Readonly.ts'
+import {List} from '../../List/List.ts'
+import {BuiltIn} from '../../Misc/BuiltIn.ts'
+import {_ListOf} from '../ListOf.ts'
+import {Tail} from '../../List/Tail.ts'
+import {Depth} from '../_Internal.ts'
 
 /**
  * @hidden

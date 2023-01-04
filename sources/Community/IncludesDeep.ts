@@ -1,13 +1,13 @@
-import {Match} from '../Any/_Internal'
-import {UnionOf} from '../Object/UnionOf'
-import {Next} from '../Iteration/Next'
-import {Prev} from '../Iteration/Prev'
-import {Iteration} from '../Iteration/Iteration'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Is} from '../Any/Is'
-import {Boolean} from '../Boolean/_Internal'
-import {Cast} from '../Any/Cast'
-import {Pos} from '../Iteration/Pos'
+import {Match} from '../Any/_Internal.ts'
+import {UnionOf} from '../Object/UnionOf.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Prev} from '../Iteration/Prev.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Is} from '../Any/Is.ts'
+import {Boolean} from '../Boolean/_Internal.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Pos} from '../Iteration/Pos.ts'
 
 /**
  * @hidden

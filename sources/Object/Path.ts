@@ -1,13 +1,13 @@
-import {Key} from '../Any/Key'
-import {Cast} from '../Any/Cast'
-import {Extends} from '../Any/Extends'
-import {Iteration} from '../Iteration/Iteration'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Next} from '../Iteration/Next'
-import {Pos} from '../Iteration/Pos'
-import {List} from '../List/List'
-import {Length} from '../List/Length'
-import {At} from '../Any/At'
+import {Key} from '../Any/Key.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Extends} from '../Any/Extends.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Pos} from '../Iteration/Pos.ts'
+import {List} from '../List/List.ts'
+import {Length} from '../List/Length.ts'
+import {At} from '../Any/At.ts'
 
 /**
  * @ignore

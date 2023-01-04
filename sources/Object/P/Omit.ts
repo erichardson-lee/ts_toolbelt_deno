@@ -1,10 +1,10 @@
-import {Key} from '../../Any/Key'
-import {_Omit as _OOmit} from '../Omit'
-import {_Omit as _LOmit} from '../../List/Omit'
-import {List} from '../../List/List'
-import {BuiltIn} from '../../Misc/BuiltIn'
-import {_ListOf} from '../ListOf'
-import {Tail} from '../../List/Tail'
+import {Key} from '../../Any/Key.ts'
+import {_Omit as _OOmit} from '../Omit.ts'
+import {_Omit as _LOmit} from '../../List/Omit.ts'
+import {List} from '../../List/List.ts'
+import {BuiltIn} from '../../Misc/BuiltIn.ts'
+import {_ListOf} from '../ListOf.ts'
+import {Tail} from '../../List/Tail.ts'
 
 /**
  * @hidden

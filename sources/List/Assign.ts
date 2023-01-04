@@ -1,8 +1,8 @@
-import {Assign as OAssign} from '../Object/Assign'
-import {List} from './List'
-import {Depth} from '../Object/_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Cast} from '../Any/Cast'
+import {Assign as OAssign} from '../Object/Assign.ts'
+import {List} from './List.ts'
+import {Depth} from '../Object/_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * Assign a list of [[List]] into `L` with [[Merge]]. Merges from left to
@@ -15,7 +15,7 @@ import {Cast} from '../Any/Cast'
  * @returns [[Object]]
  * @example
  * ```ts
- * import {L} from 'ts-toolbelt'
+ * import {L} from 'ts-toolbelt.ts'
  *
  * type test0 = Assign<[1, 2, 3], [[2, 1]]> // [2, 1, 3]
  * type test1 = Assign<[], [[1, 2, 3, 4], [2, 4, 6]]> // [2, 4, 6, 4]

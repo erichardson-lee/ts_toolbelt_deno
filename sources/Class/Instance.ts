@@ -1,4 +1,4 @@
-import {Class} from './Class'
+import {Class} from './Class.ts'
 
 /**
  * Get the instance type of a `class` from a class object
@@ -6,7 +6,7 @@ import {Class} from './Class'
  * @returns [[Object]]
  * @example
  * ```ts
- * import {C} from 'ts-toolbelt'
+ * import {C} from 'ts-toolbelt.ts'
  *
  * /// `create` takes an instance constructor and creates an instance of it
  * declare function create<C extends (new (...args: any[]) => any)>(c: C): C.InstanceOf<C>

@@ -1,7 +1,7 @@
-import {FilterKeys as OFilterKeys} from '../Object/FilterKeys'
-import {Match} from '../Any/_Internal'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {FilterKeys as OFilterKeys} from '../Object/FilterKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Filter out the keys of `L` which entries match `M`

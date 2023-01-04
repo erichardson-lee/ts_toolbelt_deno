@@ -1,7 +1,7 @@
-import {ExcludeKeys as OExcludeKeys} from '../Object/ExcludeKeys'
-import {Match} from '../Any/_Internal'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {ExcludeKeys as OExcludeKeys} from '../Object/ExcludeKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Exclude the keys of `L1` out of the keys of `L`

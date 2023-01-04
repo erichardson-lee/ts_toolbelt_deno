@@ -1,5 +1,5 @@
-import {Split} from './Split'
-import {Length as LLength} from '../List/Length'
+import {Split} from './Split.ts'
+import {Length as LLength} from '../List/Length.ts'
 
 /**
  * Get the length of a `string`

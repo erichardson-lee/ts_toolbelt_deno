@@ -1,8 +1,8 @@
-import {Filter as OFilter} from '../Object/Filter'
-import {ListOf} from '../Object/ListOf'
-import {Match} from '../Any/_Internal'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Filter as OFilter} from '../Object/Filter.ts'
+import {ListOf} from '../Object/ListOf.ts'
+import {Match} from '../Any/_Internal.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Filter out of `L` the entries that match `M`

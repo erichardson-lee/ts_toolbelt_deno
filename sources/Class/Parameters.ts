@@ -1,4 +1,4 @@
-import {Class} from './Class'
+import {Class} from './Class.ts'
 
 /**
  * Get the parameters of a class constructor
@@ -6,7 +6,7 @@ import {Class} from './Class'
  * @returns [[List]]
  * @example
  * ```ts
- * import {C} from 'ts-toolbelt'
+ * import {C} from 'ts-toolbelt.ts'
  *
  * type User = C.Class<[string, string], {firstname: string, lastname: string}>
  *

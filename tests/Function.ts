@@ -1,5 +1,5 @@
-import {Test, F, A} from '../sources'
-import {Narrow} from '../sources/Function/Narrow'
+import {Test, F, A} from '../sources.ts'
+import {Narrow} from '../sources/Function/Narrow.ts'
 
 const {checks, check} = Test
 

@@ -1,13 +1,13 @@
-import {Key} from '../Any/Key'
-import {Head} from '../List/Head'
-import {List} from '../List/List'
-import {Pop} from '../List/Pop'
-import {Tail} from '../List/Tail'
-import {Path} from '../Object/Path'
-import {UnionOf} from '../Object/UnionOf'
-import {Select} from '../Union/Select'
-import {Join} from '../String/Join'
-import {Split} from '../String/Split'
+import {Key} from '../Any/Key.ts'
+import {Head} from '../List/Head.ts'
+import {List} from '../List/List.ts'
+import {Pop} from '../List/Pop.ts'
+import {Tail} from '../List/Tail.ts'
+import {Path} from '../Object/Path.ts'
+import {UnionOf} from '../Object/UnionOf.ts'
+import {Select} from '../Union/Select.ts'
+import {Join} from '../String/Join.ts'
+import {Split} from '../String/Split.ts'
 
 /**
  * @ignore

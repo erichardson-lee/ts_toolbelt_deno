@@ -1,5 +1,5 @@
-import {Cast} from '../Any/Cast'
-import {Pop} from '../List/Pop'
+import {Cast} from '../Any/Cast.ts'
+import {Pop} from '../List/Pop.ts'
 
 /**
  * @ignore

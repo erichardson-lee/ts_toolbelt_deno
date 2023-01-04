@@ -1,6 +1,6 @@
-import {OptionalKeys as OOptionalKeys} from '../Object/OptionalKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {OptionalKeys as OOptionalKeys} from '../Object/OptionalKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` that are optional

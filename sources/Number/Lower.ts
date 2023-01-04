@@ -1,6 +1,6 @@
-import {_Greater} from './Greater'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
+import {_Greater} from './Greater.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
 
 /**
  * @hidden
@@ -15,7 +15,7 @@ export type _Lower<N1 extends Iteration, N2 extends Iteration> =
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.Lower<'7', '5'> // False
  * type test1 = N.Lower<'5', '5'> // False

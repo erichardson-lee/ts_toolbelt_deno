@@ -1,13 +1,13 @@
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {Prepend} from '../List/Prepend'
-import {Prev} from '../Iteration/Prev'
-import {Next} from '../Iteration/Next'
-import {Cast} from '../Any/Cast'
-import {Way} from '../Iteration/_Internal'
-import {List} from '../List/List'
-import {Extends} from '../Any/Extends'
-import {Pos} from '../Iteration/Pos'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {Prepend} from '../List/Prepend.ts'
+import {Prev} from '../Iteration/Prev.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Way} from '../Iteration/_Internal.ts'
+import {List} from '../List/List.ts'
+import {Extends} from '../Any/Extends.ts'
+import {Pos} from '../Iteration/Pos.ts'
 
 /**
  * @hidden
@@ -49,7 +49,7 @@ export type _Range<From extends number, To extends number, way extends Way> =
  * @returns `string[] | number[] | boolean[]`
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.Range<'-2', '1'>            // ['-2', '-1', '0', '1']
  * type test1 = N.Range<'-2', '1', '->'>      // ['-2', '-1', '0', '1']

@@ -1,6 +1,6 @@
-import {ExcludeKeys} from './ExcludeKeys'
-import {Match} from '../Any/_Internal'
-import {Pick} from './Pick'
+import {ExcludeKeys} from './ExcludeKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Pick} from './Pick.ts'
 
 /**
  * Exclude the fields of `O1` out of `O`

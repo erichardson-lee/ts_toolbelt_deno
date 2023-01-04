@@ -1,8 +1,8 @@
-import {HasPath as OHasPath} from '../Object/HasPath'
-import {Match} from '../Any/_Internal'
-import {Key} from '../Any/Key'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {HasPath as OHasPath} from '../Object/HasPath.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Key} from '../Any/Key.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Check whether `L` has nested entries that match `M`

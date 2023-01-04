@@ -1,4 +1,4 @@
-import {Test, T, A} from '../sources'
+import {Test, T, A} from '../sources.ts'
 
 const {checks, check} = Test
 

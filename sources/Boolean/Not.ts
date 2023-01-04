@@ -1,4 +1,4 @@
-import {Boolean} from './_Internal'
+import {Boolean} from './_Internal.ts'
 
 /**
  * Logical `!` operator (behaves like the JS one)
@@ -6,7 +6,7 @@ import {Boolean} from './_Internal'
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {B} from 'ts-toolbelt'
+ * import {B} from 'ts-toolbelt.ts'
  *
  * type test0 = B.Not<B.True>  // False
  * type test1 = B.Not<B.False> // True

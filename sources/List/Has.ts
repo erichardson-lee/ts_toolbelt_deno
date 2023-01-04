@@ -1,8 +1,8 @@
-import {Match} from '../Any/_Internal'
-import {Has as OHas} from '../Object/Has'
-import {Key} from './_Internal'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Match} from '../Any/_Internal.ts'
+import {Has as OHas} from '../Object/Has.ts'
+import {Key} from './_Internal.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Check whether `L` has a entry of key `K` that matches `M`

@@ -1,7 +1,7 @@
-import {Match} from '../Any/_Internal'
-import {Includes as OIncludes} from '../Object/Includes'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Match} from '../Any/_Internal.ts'
+import {Includes as OIncludes} from '../Object/Includes.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Check whether `L` has entries that match `M`

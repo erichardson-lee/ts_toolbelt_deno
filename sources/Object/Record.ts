@@ -1,5 +1,5 @@
-import {Modx} from './_Internal'
-import {Key} from '../Any/Key'
+import {Modx} from './_Internal.ts'
+import {Key} from '../Any/Key.ts'
 
 /**
  * Create an object filled with `A` for the fields `K`

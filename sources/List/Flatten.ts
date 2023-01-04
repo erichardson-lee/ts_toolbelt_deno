@@ -1,13 +1,13 @@
-import {List} from './List'
-import {_UnNest} from './UnNest'
-import {Cast} from '../Any/Cast'
-import {Equals} from '../Any/Equals'
-import {Iteration} from '../Iteration/Iteration'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Extends} from '../Any/Extends'
-import {Next} from '../Iteration/Next'
-import {Or} from '../Boolean/Or'
-import {Boolean} from '../Boolean/_Internal'
+import {List} from './List.ts'
+import {_UnNest} from './UnNest.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Equals} from '../Any/Equals.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Extends} from '../Any/Extends.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Or} from '../Boolean/Or.ts'
+import {Boolean} from '../Boolean/_Internal.ts'
 
 /**
  * @hidden

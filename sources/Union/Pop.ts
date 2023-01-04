@@ -1,5 +1,5 @@
-import {Exclude} from './Exclude'
-import {Last} from './Last'
+import {Exclude} from './Exclude.ts'
+import {Last} from './Last.ts'
 
 /**
  * Remove an item out of `U`

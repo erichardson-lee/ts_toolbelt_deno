@@ -4,7 +4,7 @@
  * @returns `A`
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * const fn0 = <A extends any>(a0: A, a1: F.NoInfer<A>): A => {
  *  return {} as unknown as A // just for the example

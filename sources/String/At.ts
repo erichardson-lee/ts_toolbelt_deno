@@ -1,6 +1,6 @@
-import {Split} from './Split'
+import {Split} from './Split.ts'
 
-import {At as AAt} from '../Any/At'
+import {At as AAt} from '../Any/At.ts'
 
 /**
  * Get the character at position `K`

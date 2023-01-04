@@ -1,9 +1,9 @@
-import {Key} from './_Internal'
-import {Either as OEither} from '../Object/Either'
-import {ObjectOf} from './ObjectOf'
-import {_ListOf} from '../Object/ListOf'
-import {List} from './List'
-import {Boolean} from '../Boolean/_Internal'
+import {Key} from './_Internal.ts'
+import {Either as OEither} from '../Object/Either.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {_ListOf} from '../Object/ListOf.ts'
+import {List} from './List.ts'
+import {Boolean} from '../Boolean/_Internal.ts'
 
 /**
  * Split `L` into a [[Union]] with `K` keys in such a way that none of

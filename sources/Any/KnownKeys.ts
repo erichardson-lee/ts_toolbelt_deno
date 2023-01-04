@@ -1,4 +1,4 @@
-import {Keys} from './Keys'
+import {Keys} from './Keys.ts'
 
 /**
  * Get the known keys of an [[Object]]

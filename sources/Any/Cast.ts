@@ -7,7 +7,7 @@
  * @returns `A1 | A2`
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type test0 = A.Cast<'42', string> // '42'
  * type test1 = A.Cast<'42', number> // number

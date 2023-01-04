@@ -1,8 +1,8 @@
-import {At} from '../Any/At'
-import {Overwrite} from '../Object/Overwrite'
-import {ComputeRaw} from '../Any/Compute'
-import {IntersectOf} from './IntersectOf'
-import {Strict} from './Strict'
+import {At} from '../Any/At.ts'
+import {Overwrite} from '../Object/Overwrite.ts'
+import {ComputeRaw} from '../Any/Compute.ts'
+import {IntersectOf} from './IntersectOf.ts'
+import {Strict} from './Strict.ts'
 
 /**
  * @hidden

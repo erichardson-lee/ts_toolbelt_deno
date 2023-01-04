@@ -1,7 +1,7 @@
-import {ComputeRaw} from '../Any/Compute'
-import {Keys} from '../Any/Keys'
-import {OptionalFlat} from '../Object/Optional'
-import {Record} from '../Object/Record'
+import {ComputeRaw} from '../Any/Compute.ts'
+import {Keys} from '../Any/Keys.ts'
+import {OptionalFlat} from '../Object/Optional.ts'
+import {Record} from '../Object/Record.ts'
 
 /**
  * @hidden

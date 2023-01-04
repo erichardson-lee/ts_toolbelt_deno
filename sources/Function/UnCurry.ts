@@ -1,4 +1,4 @@
-import {Curry} from './Curry'
+import {Curry} from './Curry.ts'
 
 /**
  * Undoes the work that was done by [[Curry]]
@@ -6,7 +6,7 @@ import {Curry} from './Curry'
  * @returns [[Function]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * type test0 = F.Curry<(a: string, b: number) => boolean>
  * declare const foo: test0

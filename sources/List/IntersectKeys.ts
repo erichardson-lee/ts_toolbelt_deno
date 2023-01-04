@@ -1,7 +1,7 @@
-import {Match} from '../Any/_Internal'
-import {IntersectKeys as OIntersectKeys} from '../Object/IntersectKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Match} from '../Any/_Internal.ts'
+import {IntersectKeys as OIntersectKeys} from '../Object/IntersectKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the intersecting entries of `L` & `L1`

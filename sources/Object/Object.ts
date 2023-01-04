@@ -1,5 +1,5 @@
-import {Key} from '../Any/Key'
-import {Record} from './Record'
+import {Key} from '../Any/Key.ts'
+import {Record} from './Record.ts'
 
 /**
  * An [[Object]]

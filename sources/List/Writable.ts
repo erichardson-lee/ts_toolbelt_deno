@@ -1,7 +1,7 @@
-import {Depth} from '../Object/_Internal'
-import {WritablePart} from '../Object/Writable'
-import {List} from './List'
-import {Cast} from '../Any/Cast'
+import {Depth} from '../Object/_Internal.ts'
+import {WritablePart} from '../Object/Writable.ts'
+import {List} from './List.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * Make `L` writable (deeply or not)

@@ -1,4 +1,4 @@
-import {List} from './List'
+import {List} from './List.ts'
 
 /**
  * Add an element `A` at the beginning of `L`

@@ -1,5 +1,5 @@
-import {Is} from '../Any/Is'
-import {Match} from '../Any/_Internal'
+import {Is} from '../Any/Is.ts'
+import {Match} from '../Any/_Internal.ts'
 
 /**
  * Replace `M` with `A` in `U`

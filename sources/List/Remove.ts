@@ -1,6 +1,6 @@
-import {KeySet} from './KeySet'
-import {Omit} from './Omit'
-import {List} from './List'
+import {KeySet} from './KeySet.ts'
+import {Omit} from './Omit.ts'
+import {List} from './List.ts'
 
 /**
  * Remove out of `L` a range of entries

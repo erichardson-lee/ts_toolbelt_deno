@@ -1,4 +1,4 @@
-import {Boolean} from './_Internal'
+import {Boolean} from './_Internal.ts'
 
 /**
  * Logical `^` operator (behaves like the JS one)
@@ -7,7 +7,7 @@ import {Boolean} from './_Internal'
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {B} from 'ts-toolbelt'
+ * import {B} from 'ts-toolbelt.ts'
  *
  * type test0 = B.Xor<B.True, B.True>    // False
  * type test1 = B.Xor<B.False, B.True>   // True

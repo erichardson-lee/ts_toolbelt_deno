@@ -1,4 +1,4 @@
-import {GreaterEq} from './GreaterEq'
+import {GreaterEq} from './GreaterEq.ts'
 
 /**
  * Check if a [[Number]] is lower or equal to another one
@@ -7,7 +7,7 @@ import {GreaterEq} from './GreaterEq'
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.LowerEq<'7', '5'> // False
  * type test1 = N.LowerEq<'5', '5'> // True

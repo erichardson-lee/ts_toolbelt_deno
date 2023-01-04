@@ -5,7 +5,7 @@
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type test0 = A.Equals<42 | 0, 42 | 0>                    // true
  * type test1 = A.Equals<{a: string}, {b: string}>          // false

@@ -1,4 +1,4 @@
-import {List} from './List'
+import {List} from './List.ts'
 
 /**
  * Add an element `A` at the end of `L`.
@@ -7,7 +7,7 @@ import {List} from './List'
  * @returns [[List]]
  * @example
  * ```ts
- * import {L} from 'ts-toolbelt'
+ * import {L} from 'ts-toolbelt.ts'
  *
  * type test0 = L.Append<[1, 2, 3], 4> // [1, 2, 3, 4]
  * type test1 = L.Append<[], 'a'> // ['a']

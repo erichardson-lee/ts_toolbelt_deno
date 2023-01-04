@@ -1,9 +1,9 @@
-import {_Omit} from './Omit'
-import {_Pick} from './Pick'
-import {Key} from '../Any/Key'
-import {Strict} from '../Union/Strict'
-import {Boolean} from '../Boolean/_Internal'
-import {ComputeRaw} from '../Any/Compute'
+import {_Omit} from './Omit.ts'
+import {_Pick} from './Pick.ts'
+import {Key} from '../Any/Key.ts'
+import {Strict} from '../Union/Strict.ts'
+import {Boolean} from '../Boolean/_Internal.ts'
+import {ComputeRaw} from '../Any/Compute.ts'
 
 /**
  * @hidden

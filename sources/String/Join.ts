@@ -1,6 +1,6 @@
-import {List} from '../List/List'
-import {Literal} from './_Internal'
-import {Cast} from '../Any/Cast'
+import {List} from '../List/List.ts'
+import {Literal} from './_Internal.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * @hidden

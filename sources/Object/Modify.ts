@@ -1,7 +1,7 @@
-import {At} from '../Any/At'
-import {Replace} from '../Union/Replace'
-import {x} from '../Any/x'
-import {Exclude} from '../Union/Exclude'
+import {At} from '../Any/At.ts'
+import {Replace} from '../Union/Replace.ts'
+import {x} from '../Any/x.ts'
+import {Exclude} from '../Union/Exclude.ts'
 
 /**
  * Modify `O` with `OMod` & the [[x]] placeholder

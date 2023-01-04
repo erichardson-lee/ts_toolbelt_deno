@@ -1,8 +1,8 @@
 /** @ignore *//** */
 
-import {Function} from '../../Function'
-import {Await} from '../../../Any/Await'
-import {Curry} from '../../Curry'
+import {Function} from '../../Function.ts'
+import {Await} from '../../../Any/Await.ts'
+import {Curry} from '../../Curry.ts'
 
 /**
  *@hidden

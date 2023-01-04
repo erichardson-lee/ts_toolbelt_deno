@@ -1,6 +1,6 @@
-import {IntersectKeys} from './IntersectKeys'
-import {Match} from '../Any/_Internal'
-import {Pick} from './Pick'
+import {IntersectKeys} from './IntersectKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Pick} from './Pick.ts'
 
 /**
  * Get the intersecting fields of `O` & `O1`

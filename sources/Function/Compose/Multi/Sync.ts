@@ -1,8 +1,8 @@
 
 /** @ignore *//** */
 
-import {Curry} from '../../Curry'
-import {Function} from '../../Function'
+import {Curry} from '../../Curry.ts'
+import {Function} from '../../Function.ts'
 
 /**
  *@hidden

@@ -1,4 +1,4 @@
-import {Function} from './Function'
+import {Function} from './Function.ts'
 
 /**
  * Extract parameters from a [[Function]]
@@ -6,7 +6,7 @@ import {Function} from './Function'
  * @returns [[List]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * const fn = (name: string, age: number) => {}
  *

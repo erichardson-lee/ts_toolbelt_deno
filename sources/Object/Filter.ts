@@ -1,6 +1,6 @@
-import {FilterKeys} from './FilterKeys'
-import {Match} from '../Any/_Internal'
-import {Pick} from './Pick'
+import {FilterKeys} from './FilterKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Pick} from './Pick.ts'
 
 /**
  * Filter out of `O` the fields that match `M`

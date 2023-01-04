@@ -1,12 +1,12 @@
 
-import {Iteration, IterationMap} from './Iteration'
+import {Iteration, IterationMap} from './Iteration.ts'
 /**
  * Move `I`'s position backwards
  * @param I to move
  * @returns [[Iteration]]
  * @example
  * ```ts
- * import {I} from 'ts-toolbelt'
+ * import {I} from 'ts-toolbelt.ts'
  *
  * type i = I.IterationOf<'20'>
  *

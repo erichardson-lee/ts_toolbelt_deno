@@ -1,8 +1,8 @@
-import {Match} from '../Any/_Internal'
-import {Path as OPath} from './Path'
-import {Is} from '../Any/Is'
-import {Key} from '../Any/Key'
-import {List} from '../List/List'
+import {Match} from '../Any/_Internal.ts'
+import {Path as OPath} from './Path.ts'
+import {Is} from '../Any/Is.ts'
+import {Key} from '../Any/Key.ts'
+import {List} from '../List/List.ts'
 
 /**
  * Check whether `O` has nested properties that match `M`

@@ -1,5 +1,5 @@
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
 
 /**
  * @hidden
@@ -16,7 +16,7 @@ export type _IsZero<N extends Iteration> = {
  * @returns [[Boolean]]
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.IsZero<'0'>  // True
  * type test1 = N.IsZero<'-7'> // False

@@ -1,7 +1,7 @@
-import {Match} from '../Any/_Internal'
-import {Is} from '../Any/Is'
-import {At} from '../Any/At'
-import {Keys} from '../Any/Keys'
+import {Match} from '../Any/_Internal.ts'
+import {Is} from '../Any/Is.ts'
+import {At} from '../Any/At.ts'
+import {Keys} from '../Any/Keys.ts'
 
 /**
  * @hidden

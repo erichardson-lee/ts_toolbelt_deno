@@ -1,7 +1,7 @@
-import {Depth} from '../Object/_Internal'
-import {RequiredPart} from '../Object/Required'
-import {List} from './List'
-import {Cast} from '../Any/Cast'
+import {Depth} from '../Object/_Internal.ts'
+import {RequiredPart} from '../Object/Required.ts'
+import {List} from './List.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * Make `L` required (deeply or not)

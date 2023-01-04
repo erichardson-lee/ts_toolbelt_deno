@@ -1,9 +1,9 @@
-import {Key} from './_Internal'
-import {AtLeast as OAtLeast} from '../Object/AtLeast'
-import {ObjectOf} from './ObjectOf'
-import {_ListOf} from '../Object/ListOf'
-import {List} from './List'
-import {Keys} from '../Any/Keys'
+import {Key} from './_Internal.ts'
+import {AtLeast as OAtLeast} from '../Object/AtLeast.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {_ListOf} from '../Object/ListOf.ts'
+import {List} from './List.ts'
+import {Keys} from '../Any/Keys.ts'
 
 /**
  * Make that at least one of the keys `K` are required in `L` at a time.
@@ -12,7 +12,7 @@ import {Keys} from '../Any/Keys'
  * @returns [[List]] [[Union]]
  * @example
  * ```ts
- * import {L} from 'ts-toolbelt'
+ * import {L} from 'ts-toolbelt.ts'
  *
  * type test0 = L.AtLeast<[1, 2, 3], 0> // [1, 2 | undefined, 3 | undefined]
  * type test1 = L.AtLeast<[1, 2, 3], 0 | 1> // [1, 2 | undefined, 3 | undefined] | [1 | undefined, 2, 3 | undefined]

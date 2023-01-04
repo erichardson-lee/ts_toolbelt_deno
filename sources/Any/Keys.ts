@@ -1,4 +1,4 @@
-import {List} from '../List/List'
+import {List} from '../List/List.ts'
 
 /**
  * Get the keys of `A`

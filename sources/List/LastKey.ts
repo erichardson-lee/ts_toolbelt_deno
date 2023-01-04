@@ -1,6 +1,6 @@
-import {Length} from './Length'
-import {Tail} from './Tail'
-import {List} from './List'
+import {Length} from './Length.ts'
+import {Tail} from './Tail.ts'
+import {List} from './List.ts'
 
 /**
  * Get the last index of `L`

@@ -1,7 +1,7 @@
-import {Partial as OPartial} from '../Object/Partial'
-import {Depth} from '../Object/_Internal'
-import {Cast} from '../Any/Cast'
-import {List} from './List'
+import {Partial as OPartial} from '../Object/Partial.ts'
+import {Depth} from '../Object/_Internal.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from './List.ts'
 
 /**
  * Make all fields of `O` optional (deeply or not)
@@ -10,7 +10,7 @@ import {List} from './List'
  * @returns [[List]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type L = [1, 2, 3, [4, [5]]]
  *

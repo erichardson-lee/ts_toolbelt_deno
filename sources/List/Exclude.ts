@@ -1,8 +1,8 @@
-import {Match} from '../Any/_Internal'
-import {ListOf} from '../Object/ListOf'
-import {Exclude as OExclude} from '../Object/Exclude'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Match} from '../Any/_Internal.ts'
+import {ListOf} from '../Object/ListOf.ts'
+import {Exclude as OExclude} from '../Object/Exclude.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Exclude the entries of `L1` out of `L`

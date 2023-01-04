@@ -1,11 +1,11 @@
-import {Key} from '../../Any/Key'
-import {Update as OUpdate} from '../Update'
-import {Update as LUpdate} from '../../List/Update'
-import {List} from '../../List/List'
-import {BuiltIn} from '../../Misc/BuiltIn'
-import {_ListOf} from '../ListOf'
-import {Tail} from '../../List/Tail'
-import {Record} from '../Record'
+import {Key} from '../../Any/Key.ts'
+import {Update as OUpdate} from '../Update.ts'
+import {Update as LUpdate} from '../../List/Update.ts'
+import {List} from '../../List/List.ts'
+import {BuiltIn} from '../../Misc/BuiltIn.ts'
+import {_ListOf} from '../ListOf.ts'
+import {Tail} from '../../List/Tail.ts'
+import {Record} from '../Record.ts'
 
 /**
  * @hidden

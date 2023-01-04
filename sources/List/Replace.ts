@@ -1,7 +1,7 @@
-import {Replace as OReplace} from '../Object/Replace'
-import {Match} from '../Any/_Internal'
-import {Cast} from '../Any/Cast'
-import {List} from './List'
+import {Replace as OReplace} from '../Object/Replace.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from './List.ts'
 
 /**
  * Update with `A` the entries of `L` that match `M`

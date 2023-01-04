@@ -4,7 +4,7 @@
  * @returns [[Any]]
  * @example
  * ```ts
- * import {C} from 'ts-toolbelt'
+ * import {C} from 'ts-toolbelt.ts'
  *
  * const promise = new Promise<string>((res, rej) => res('x'))
  *

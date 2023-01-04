@@ -1,11 +1,11 @@
-import {Modx} from '../_Internal'
-import {IterationOf} from '../../Iteration/IterationOf'
-import {Iteration} from '../../Iteration/Iteration'
-import {Pos} from '../../Iteration/Pos'
-import {Next} from '../../Iteration/Next'
-import {Key} from '../../Any/Key'
-import {LastKey} from '../../List/LastKey'
-import {List} from '../../List/List'
+import {Modx} from '../_Internal.ts'
+import {IterationOf} from '../../Iteration/IterationOf.ts'
+import {Iteration} from '../../Iteration/Iteration.ts'
+import {Pos} from '../../Iteration/Pos.ts'
+import {Next} from '../../Iteration/Next.ts'
+import {Key} from '../../Any/Key.ts'
+import {LastKey} from '../../List/LastKey.ts'
+import {List} from '../../List/List.ts'
 
 /**
  * @hidden

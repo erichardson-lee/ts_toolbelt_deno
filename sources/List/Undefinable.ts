@@ -1,8 +1,8 @@
-import {Key} from './_Internal'
-import {List} from './List'
-import {Update} from '../Object/Update'
-import {x} from '../Any/x'
-import {Cast} from '../Any/Cast'
+import {Key} from './_Internal.ts'
+import {List} from './List.ts'
+import {Update} from '../Object/Update.ts'
+import {x} from '../Any/x.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * Make some entries of `L` not `undefined` (deeply or not)

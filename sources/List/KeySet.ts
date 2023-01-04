@@ -1,5 +1,5 @@
-import {Range} from '../Number/Range'
-import {UnionOf} from './UnionOf'
+import {Range} from '../Number/Range.ts'
+import {UnionOf} from './UnionOf.ts'
 
 /**
  * Create a set of keys

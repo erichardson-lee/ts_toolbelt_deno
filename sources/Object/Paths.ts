@@ -1,11 +1,11 @@
-import {Key} from '../Any/Key'
-import {NonNullableFlat} from '../Object/NonNullable'
-import {Cast} from '../Any/Cast'
-import {List} from '../List/List'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Primitive} from '../Misc/Primitive'
-import {Length} from '../List/Length'
-import {Keys} from '../Any/Keys'
+import {Key} from '../Any/Key.ts'
+import {NonNullableFlat} from '../Object/NonNullable.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from '../List/List.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Primitive} from '../Misc/Primitive.ts'
+import {Length} from '../List/Length.ts'
+import {Keys} from '../Any/Keys.ts'
 
 /**
  * @hidden

@@ -1,8 +1,8 @@
-import {Replace} from '../Union/Replace'
-import {x} from '../Any/x'
-import {List} from './List'
-import {Cast} from '../Any/Cast'
-import {At} from '../Any/At'
+import {Replace} from '../Union/Replace.ts'
+import {x} from '../Any/x.ts'
+import {List} from './List.ts'
+import {Cast} from '../Any/Cast.ts'
+import {At} from '../Any/At.ts'
 
 /**
  * Modify `L` with `LMod` & the [[x]] placeholder

@@ -1,10 +1,10 @@
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {Pos} from '../Iteration/Pos'
-import {Prev} from '../Iteration/Prev'
-import {Next} from '../Iteration/Next'
-import {_IsNegative} from './IsNegative'
-import {Cast} from '../Any/Cast'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {Pos} from '../Iteration/Pos.ts'
+import {Prev} from '../Iteration/Prev.ts'
+import {Next} from '../Iteration/Next.ts'
+import {_IsNegative} from './IsNegative.ts'
+import {Cast} from '../Any/Cast.ts'
 
 /**
  * @hidden
@@ -67,7 +67,7 @@ export type _Add<N1 extends Iteration, N2 extends Iteration> = {
  * @returns `string | number | boolean`
  * @example
  * ```ts
- * import {N} from 'ts-toolbelt'
+ * import {N} from 'ts-toolbelt.ts'
  *
  * type test0 = N.Add<'2', '10'>        // '12'
  * type test1 = N.Add<'0', '40'>        // '40'

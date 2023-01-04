@@ -1,6 +1,6 @@
-import {SelectKeys} from './SelectKeys'
-import {Match} from '../Any/_Internal'
-import {Pick} from './Pick'
+import {SelectKeys} from './SelectKeys.ts'
+import {Match} from '../Any/_Internal.ts'
+import {Pick} from './Pick.ts'
 
 /**
  * Extract the fields of `O` that match `M`

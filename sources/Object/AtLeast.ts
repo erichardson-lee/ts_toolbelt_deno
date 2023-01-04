@@ -1,11 +1,11 @@
-import {_Omit} from './Omit'
-import {_Pick} from './Pick'
-import {Key} from '../Any/Key'
-import {Keys} from '../Any/Keys'
-import {RequiredFlat} from './Required'
-import {Extends} from '../Any/Extends'
-import {ComputeRaw} from '../Any/Compute'
-import {OptionalFlat} from './Optional'
+import {_Omit} from './Omit.ts'
+import {_Pick} from './Pick.ts'
+import {Key} from '../Any/Key.ts'
+import {Keys} from '../Any/Keys.ts'
+import {RequiredFlat} from './Required.ts'
+import {Extends} from '../Any/Extends.ts'
+import {ComputeRaw} from '../Any/Compute.ts'
+import {OptionalFlat} from './Optional.ts'
 
 /**
  * @hidden

@@ -1,8 +1,8 @@
-import {Depth} from '../Object/_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Has} from '../Union/Has'
-import {If} from './If'
-import {Key} from './Key'
+import {Depth} from '../Object/_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Has} from '../Union/Has.ts'
+import {If} from './If.ts'
+import {Key} from './Key.ts'
 
 /**
  * @hidden
@@ -50,7 +50,7 @@ type ComputeDeep<A extends any, Seen = never> =
  * @returns `A`
  * @example
  * ```ts
- * import {A} from 'ts-toolbelt'
+ * import {A} from 'ts-toolbelt.ts'
  *
  * type test0 = A.Compute<{x: 'x'} & {y: 'y'}> // {x: 'x', y: 'y'}
  * ```

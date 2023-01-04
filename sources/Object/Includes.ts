@@ -1,5 +1,5 @@
-import {SelectKeys} from './SelectKeys'
-import {Match} from '../Any/_Internal'
+import {SelectKeys} from './SelectKeys.ts'
+import {Match} from '../Any/_Internal.ts'
 
 /**
  * Check whether `O` has fields that match `M`

@@ -1,12 +1,12 @@
-import {At} from '../Any/At'
-import {Key} from '../Any/Key'
-import {_ListOf} from './ListOf'
-import {List} from '../List/List'
-import {Depth} from './_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {_Omit} from './Omit'
-import {Length} from '../List/Length'
-import {Has} from '../Union/Has'
+import {At} from '../Any/At.ts'
+import {Key} from '../Any/Key.ts'
+import {_ListOf} from './ListOf.ts'
+import {List} from '../List/List.ts'
+import {Depth} from './_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {_Omit} from './Omit.ts'
+import {Length} from '../List/Length.ts'
+import {Has} from '../Union/Has.ts'
 
 /**
  * @hidden
@@ -116,7 +116,7 @@ export type PatchDeep<O extends object, O1 extends object, ignore extends object
  * @returns [[Object]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type O = {
  *  name?: string

@@ -1,5 +1,5 @@
-import {OptionalPart} from './Optional'
-import {Depth} from './_Internal'
+import {OptionalPart} from './Optional.ts'
+import {Depth} from './_Internal.ts'
 
 /**
  * Make all fields of `O` optional (deeply or not)
@@ -8,7 +8,7 @@ import {Depth} from './_Internal'
  * @returns [[Object]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type L = {a: {b: {c: 2}}, b: 1}
  *

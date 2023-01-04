@@ -1,7 +1,7 @@
-import {Match} from '../Any/_Internal'
-import {SelectKeys as OSelectKeys} from '../Object/SelectKeys'
-import {ObjectOf} from './ObjectOf'
-import {List} from './List'
+import {Match} from '../Any/_Internal.ts'
+import {SelectKeys as OSelectKeys} from '../Object/SelectKeys.ts'
+import {ObjectOf} from './ObjectOf.ts'
+import {List} from './List.ts'
 
 /**
  * Get the keys of `L` which entries match `M`

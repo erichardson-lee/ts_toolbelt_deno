@@ -1,4 +1,4 @@
-import {Extends} from './Extends'
+import {Extends} from './Extends.ts'
 
 /**
  * Check whether `A1` is part of `A2` or not. It works like

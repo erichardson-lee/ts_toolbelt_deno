@@ -1,5 +1,5 @@
-import {Equals} from './Any/Equals'
-import {Boolean} from './Boolean/_Internal'
+import {Equals} from './Any/Equals.ts'
+import {Boolean} from './Boolean/_Internal.ts'
 
 /**
  * Test should pass

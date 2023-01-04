@@ -1,5 +1,5 @@
-import {Has} from '../Union/Has'
-import {List} from './List'
+import {Has} from '../Union/Has.ts'
+import {List} from './List.ts'
 
 /**
  * Get the longest [[List]] of `L` & `L1`

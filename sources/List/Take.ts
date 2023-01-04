@@ -1,13 +1,13 @@
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {Pos} from '../Iteration/Pos'
-import {Prepend} from './Prepend'
-import {Way} from '../Iteration/_Internal'
-import {List} from './List'
-import {Prev} from '../Iteration/Prev'
-import {Cast} from '../Any/Cast'
-import {Tail} from './Tail'
-import {Extends} from '../Any/Extends'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {Pos} from '../Iteration/Pos.ts'
+import {Prepend} from './Prepend.ts'
+import {Way} from '../Iteration/_Internal.ts'
+import {List} from './List.ts'
+import {Prev} from '../Iteration/Prev.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Tail} from './Tail.ts'
+import {Extends} from '../Any/Extends.ts'
 
 /**
  * starts in reverse from `N` till `N` = 0

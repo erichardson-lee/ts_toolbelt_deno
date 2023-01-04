@@ -1,9 +1,9 @@
-import {_Drop} from './Drop'
-import {_Take} from './Take'
-import {Cast} from '../Any/Cast'
-import {Append} from './Append'
-import {List} from './List'
-import {Extends} from '../Any/Extends'
+import {_Drop} from './Drop.ts'
+import {_Take} from './Take.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Append} from './Append.ts'
+import {List} from './List.ts'
+import {Extends} from '../Any/Extends.ts'
 
 /**
  * @hidden

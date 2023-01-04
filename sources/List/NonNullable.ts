@@ -1,10 +1,10 @@
-import {_Pick} from '../Object/Pick'
-import {Key} from './_Internal'
-import {NonNullable as UNonNullable} from '../Union/NonNullable'
-import {Depth} from '../Object/_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Cast} from '../Any/Cast'
-import {List} from './List'
+import {_Pick} from '../Object/Pick.ts'
+import {Key} from './_Internal.ts'
+import {NonNullable as UNonNullable} from '../Union/NonNullable.ts'
+import {Depth} from '../Object/_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Cast} from '../Any/Cast.ts'
+import {List} from './List.ts'
 
 /**
  * @hidden

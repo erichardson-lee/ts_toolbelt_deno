@@ -1,5 +1,5 @@
-import {Function} from './Function'
-import {List} from '../List/List'
+import {Function} from './Function.ts'
+import {List} from '../List/List.ts'
 
 /**
  * Extract the return type of a [[Function]]
@@ -7,7 +7,7 @@ import {List} from '../List/List'
  * @returns [[Any]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * const fn = () => true
  *

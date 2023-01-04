@@ -1,19 +1,19 @@
-import {Pos} from '../Iteration/Pos'
-import {Concat} from '../List/Concat'
-import {Length} from '../List/Length'
-import {Next} from '../Iteration/Next'
-import {Cast} from '../Any/Cast'
-import {Parameters} from './Parameters'
-import {Return} from './Return'
-import {IterationOf} from '../Iteration/IterationOf'
-import {Iteration} from '../Iteration/Iteration'
-import {NonNullableFlat} from '../Object/NonNullable'
-import {x} from '../Any/x'
-import {List} from '../List/List'
-import {Function} from './Function'
-import {Extends} from '../Any/Extends'
-import {Tail} from '../List/Tail'
-import {RequiredKeys} from '../List/RequiredKeys'
+import {Pos} from '../Iteration/Pos.ts'
+import {Concat} from '../List/Concat.ts'
+import {Length} from '../List/Length.ts'
+import {Next} from '../Iteration/Next.ts'
+import {Cast} from '../Any/Cast.ts'
+import {Parameters} from './Parameters.ts'
+import {Return} from './Return.ts'
+import {IterationOf} from '../Iteration/IterationOf.ts'
+import {Iteration} from '../Iteration/Iteration.ts'
+import {NonNullableFlat} from '../Object/NonNullable.ts'
+import {x} from '../Any/x.ts'
+import {List} from '../List/List.ts'
+import {Function} from './Function.ts'
+import {Extends} from '../Any/Extends.ts'
+import {Tail} from '../List/Tail.ts'
+import {RequiredKeys} from '../List/RequiredKeys.ts'
 
 /**
  * @hidden
@@ -102,7 +102,7 @@ type Gaps<L extends List> = Cast<NonNullableFlat<{
  * @returns [[Function]]
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * /// If you are looking for creating types for `curry`
  * /// It handles placeholders and variable arguments

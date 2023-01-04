@@ -1,6 +1,6 @@
-import {Exclude} from './Exclude'
-import {Match} from '../Any/_Internal'
-import {PatchFlat} from './Patch'
+import {Exclude} from './Exclude.ts'
+import {Match} from '../Any/_Internal.ts'
+import {PatchFlat} from './Patch.ts'
 
 /**
  * Get an [[Object]] that is the difference between `O` & `O1`
@@ -12,7 +12,7 @@ import {PatchFlat} from './Patch'
  * @returns [[Object]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type Person0 = {
  *  name: string

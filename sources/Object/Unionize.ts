@@ -1,5 +1,5 @@
-import {At} from '../Any/At'
-import {Key} from '../Any/Key'
+import {At} from '../Any/At.ts'
+import {Key} from '../Any/Key.ts'
 
 /**
  * Make the fields of `O` union the ones of `O1`

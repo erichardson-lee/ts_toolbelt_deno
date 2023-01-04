@@ -1,9 +1,9 @@
-import {IntersectOf} from '../Union/IntersectOf'
-import {ComposeListAsync} from './Compose/List/Async'
-import {ComposeListSync} from './Compose/List/Sync'
-import {ComposeMultiAsync} from './Compose/Multi/Async'
-import {ComposeMultiSync} from './Compose/Multi/Sync'
-import {Input, Mode} from './_Internal'
+import {IntersectOf} from '../Union/IntersectOf.ts'
+import {ComposeListAsync} from './Compose/List/Async.ts'
+import {ComposeListSync} from './Compose/List/Sync.ts'
+import {ComposeMultiAsync} from './Compose/Multi/Async.ts'
+import {ComposeMultiSync} from './Compose/Multi/Sync.ts'
+import {Input, Mode} from './_Internal.ts'
 
 /**
  * Compose [[Function]]s together
@@ -11,7 +11,7 @@ import {Input, Mode} from './_Internal'
  * @param input (?=`'multi'`)   whether you want it to take a list or parameters
  * @example
  * ```ts
- * import {F} from 'ts-toolbelt'
+ * import {F} from 'ts-toolbelt.ts'
  *
  * /// If you are looking for creating types for `compose`
  * /// `Composer` will check for input & `Compose` the output

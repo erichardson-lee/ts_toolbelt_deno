@@ -1,5 +1,5 @@
-import {_Omit} from './Omit'
-import {List} from './List'
+import {_Omit} from './Omit.ts'
+import {List} from './List.ts'
 
 /**
  * Remove the last element out of `L`

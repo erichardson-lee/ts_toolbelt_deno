@@ -1,13 +1,13 @@
-import {At} from '../Any/At'
-import {_OptionalKeys} from './OptionalKeys'
-import {Key} from '../Any/Key'
-import {List} from '../List/List'
-import {Depth, Anyfy} from './_Internal'
-import {BuiltIn} from '../Misc/BuiltIn'
-import {Length} from '../List/Length'
-import {RequiredKeys} from '../List/RequiredKeys'
-import {Exclude} from '../Union/Exclude'
-import {Has} from '../Union/Has'
+import {At} from '../Any/At.ts'
+import {_OptionalKeys} from './OptionalKeys.ts'
+import {Key} from '../Any/Key.ts'
+import {List} from '../List/List.ts'
+import {Depth, Anyfy} from './_Internal.ts'
+import {BuiltIn} from '../Misc/BuiltIn.ts'
+import {Length} from '../List/Length.ts'
+import {RequiredKeys} from '../List/RequiredKeys.ts'
+import {Exclude} from '../Union/Exclude.ts'
+import {Has} from '../Union/Has.ts'
 
 /**
  * @hidden
@@ -120,7 +120,7 @@ export type MergeDeep<O extends object, O1 extends object, ignore extends object
  * @returns [[Object]]
  * @example
  * ```ts
- * import {O} from 'ts-toolbelt'
+ * import {O} from 'ts-toolbelt.ts'
  *
  * type O = {
  *  name?: string

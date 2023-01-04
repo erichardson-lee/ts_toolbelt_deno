@@ -1,10 +1,10 @@
-import {Key} from '../../Any/Key'
-import {_Pick as _OPick} from '../Pick'
-import {_Pick as _LPick} from '../../List/Pick'
-import {List} from '../../List/List'
-import {Tail} from '../../List/Tail'
-import {BuiltIn} from '../../Misc/BuiltIn'
-import {_ListOf} from '../ListOf'
+import {Key} from '../../Any/Key.ts'
+import {_Pick as _OPick} from '../Pick.ts'
+import {_Pick as _LPick} from '../../List/Pick.ts'
+import {List} from '../../List/List.ts'
+import {Tail} from '../../List/Tail.ts'
+import {BuiltIn} from '../../Misc/BuiltIn.ts'
+import {_ListOf} from '../ListOf.ts'
 
 /**
  * @hidden

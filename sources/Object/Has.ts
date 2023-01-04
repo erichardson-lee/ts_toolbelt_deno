@@ -1,7 +1,7 @@
-import {Match} from '../Any/_Internal'
-import {Is} from '../Any/Is'
-import {At} from '../Any/At'
-import {Key} from '../Any/Key'
+import {Match} from '../Any/_Internal.ts'
+import {Is} from '../Any/Is.ts'
+import {At} from '../Any/At.ts'
+import {Key} from '../Any/Key.ts'
 
 /**
  * Check whether `O` has a field of key `K` that matches `M`
